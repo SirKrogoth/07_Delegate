@@ -10,6 +10,7 @@ namespace _07_Delegate
     {
         static void Main(string[] args)
         {
+            //Delegate é um ponteiro de métodos
         }
     }
 }
