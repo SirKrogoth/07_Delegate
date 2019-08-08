@@ -10,20 +10,12 @@ namespace _07_02_Delegate.lib
     {
         public delegate void FotoFiltroHandler(Foto foto);
 
-        public static FotoFiltroHandler filtros;
+        public FotoFiltroHandler filtros;
         
-        public static void Processar(Foto foto)
+        public void Processar(Foto foto)
         {
-
+            //irá executar o método conforme a chamado que está dentro da classe Foto. 
             filtros(foto);
-            /*
-            var filtros = new FotoFiltro();
-            
-            filtros.Colorir(foto);
-            filtros.PretoBranco(foto);
-            filtros.GerarThumb(foto);
-            filtros.RedimensionarTamMedio(foto);
-            */
         }
     }
 }
