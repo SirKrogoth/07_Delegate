@@ -11,7 +11,7 @@ namespace _07_02_Delegate
     {
         static void Main(string[] args)
         {
-            //Tela de cadastro: Thumb
+            //Tela de cadastro de usuário: Thumb
             Foto foto1 = new Foto() { nome = "Cadastro.jpg", tamanhoX = 1920, tamanhoY = 1080 };
             FotoProcessador.filtros = new FotoFiltro().GerarThumb;
             FotoProcessador.Processar(foto1);
